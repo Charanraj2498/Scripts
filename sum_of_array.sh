@@ -5,6 +5,6 @@ sum=0
 for i in $num
 do
     echo "$i"
-    sum=expr $sum + $i
+    sum=`expr $sum + $i`
 done
 echo "sum of array elements is $sum"
